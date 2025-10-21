@@ -1,4 +1,4 @@
-# 🎮 Ósk’s Office Adventure
+# 🎮 Ósk’s Office Adventure Game
 
 > *A tiny pixel adventure about ambition, curiosity, and a frontend developer who turned her job application into a game.*
 <br>
@@ -8,8 +8,6 @@
 </p>
 
 ## 🌟 About the Project
-
-Hi there! 👋
 
 I’m **Ósk,** a frontend developer who, while applying for a position at a game studio, got *a little bit* carried away.
 
@@ -22,7 +20,7 @@ The goal was simple:
 - 🎨 Build something fun
 - 🤖 See if AI can *actually* help with a real creative project and lay the groundwork
 
-Spoiler: It did! ✨
+Spoiler: It did!
 
 <br>
 
