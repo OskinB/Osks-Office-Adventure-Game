@@ -3,6 +3,9 @@
 > *A tiny pixel adventure about ambition, curiosity, and a frontend developer who turned her job application into a game.*
 <br>
 
+<p align="center">
+  <img src="./Screenshot.png" alt="Ósk’s Game Screenshot" width="600"/>
+</p>
 
 ## 🌟 About the Project
 
