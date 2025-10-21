@@ -406,7 +406,7 @@ export default class DialogueManager {
         bg.setStrokeStyle(3, 0x28c6c9);
 
         const catAvatar = this.scene.add.text(-24, -105, "😸", {
-            fontSize: "36px",
+            fontSize: "30px",
             color: "#ffffff",
         });
 
@@ -452,7 +452,7 @@ export default class DialogueManager {
             color: "#ffffff",
             align: "center",
             wordWrap: { width: 310 },
-            lineSpacing: 10,
+            lineSpacing: 11,
         });
         dialogueText2.setOrigin(0.5);
 
@@ -526,7 +526,7 @@ export default class DialogueManager {
         bg.setStrokeStyle(3, 0x28c6c9);
 
         const teemoAvatar = this.scene.add.text(-16, -85, "🍄", {
-            fontSize: "36px",
+            fontSize: "30px",
             color: "#ffffff",
         });
 
