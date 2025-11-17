@@ -1,6 +1,6 @@
 # 🎮 Ósk’s Office Adventure Game
 
-> *A tiny pixel adventure about ambition, curiosity, and a frontend developer who turned her job application into a game.*
+*A tiny pixel adventure about ambition, curiosity, and a frontend developer who turned her job application into a game.*
 <br>
 
 <p align="center">
