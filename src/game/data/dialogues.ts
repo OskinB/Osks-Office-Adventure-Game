@@ -33,7 +33,7 @@ export const dialogues: Record<string, NPCDialogue> = {
               "From fire and ice to Danish pastries, quite the upgrade! I can tell you've got the drive and the sweet spot for teamwork. ",
           },
           {
-            text: "I'm from Iceland and moved here in mid-2020 for my bachelor's. I'm a very visual and techy person, that's why I love building cool, responsive stuff. I really enjoy taking a beautiful design and turning it into something real that works as smoothly as butter!",
+            text: "I'm from Iceland and moved here for my bachelor's degree. I'm a very visual and techy person, that's why I love building cool, responsive stuff. I really enjoy taking a beautiful design and turning it into something real that works as smoothly as butter!",
             response:
               "Smooth as butter? Now that's the kind of frontend energy we like to hear. If our UI can glide like that, users might actually forget about the bugs we didn't fix yet.",
           },
@@ -70,12 +70,10 @@ export const dialogues: Record<string, NPCDialogue> = {
           text: `Why do you want to come work for ${information.company.name}?`,
         },
         choices: [
-          ...information.osk.whyWorkHere.map((choice) => (
-            {
-              text: choice.answer,
-              response: choice.response,
-            }),
-          ),
+          ...information.osk.whyWorkHere.map((choice) => ({
+            text: choice.answer,
+            response: choice.response,
+          })),
         ],
       },
     ],
@@ -106,9 +104,8 @@ export const dialogues: Record<string, NPCDialogue> = {
         },
         choices: [
           {
-            text: "Well, I've been working with React for the past couple of years, and I like it, but I have to admit, I really enjoy Vue. It just feels more 'developer-friendly'😄 I used it during my internship and again for my bachelor's project, and I definitely want to work with Vue again.",
-            response:
-              "Nice! Always good to hear from someone who's worked across both camps. Vue's simplicity does win hearts and saves a few headaches.",
+            text: "I've been working with React and TypeScript for the past couple of years, and it's really become my go-to stack. That said, I would like to work more with Vue, I used it during my internships and again for my bachelor's project and it just feels more 'developer-friendly'😄",
+            response: "Nice, it's useful to have worked with both!",
           },
           {
             text: "For styling, I'm really into TailwindCSS, a utility-first framework, because it lets you quickly style elements while seeing exactly which CSS properties are applied.",

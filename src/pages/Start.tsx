@@ -15,21 +15,25 @@ const Start = () => {
       <div className="max-w-4xl w-full space-y-8 animate-fade-in">
         <HeroBanner />
 
-        <Card className="p-8 border-2 bg-[#1a1a2e] text-neutral-50 border-primary/50 space-y-6">
-          <div className="space-y-4">
-            <div className="flex items-center gap-3">
+        <Card className="p-4 md:p-8 border-2 bg-[#1a1a2e] text-neutral-50 border-primary/50 space-y-6">
+          <div className="space-y-4 text-center md:text-start">
+            <div className="flex items-center justify-center md:justify-start md:gap-3">
               <BugPlay className="w-6 h-6 text-secondary" />
-              <h2 className="text-2xl font-bold pixel-text">
+              <h2 className="max-w-52 md:max-w-none text-xl md:text-2xl font-bold">
                 Welcome to the interview!
               </h2>
             </div>
-            <p className="text-lg leading-relaxed">
-              Walk into <strong className="text-secondary">{information.company.name}</strong>
-              ' {information.company.location} office, meet the team, and possibly earn your way to
-              a job offer - all in a charming keyboard-controlled game.
+            <p className="text-base md:text-lg leading-relaxed">
+              Walk into{" "}
+              <strong className="text-secondary">
+                {information.company.name}
+              </strong>
+              ' {information.company.location} office, meet the team, and
+              possibly earn your way to a job offer - all in a charming
+              keyboard-controlled game.
             </p>
             <GameTips />
-            <GameControls/>
+            <GameControls />
           </div>
 
           <div className="space-y-3">
