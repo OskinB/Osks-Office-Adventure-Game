@@ -15,10 +15,10 @@ Instead of sending a traditional cover letter, I decided to **make my cover lett
 
 The goal was simple:
 
-- 🕹️ Create a working 2D game from scratch as a frontend dev
-- 💡 Learn something new
-- 🎨 Build something fun
-- 🤖 See if AI can _actually_ help with a real creative project and lay the groundwork
+- Create a working 2D game from scratch as a frontend dev
+- Learn something new
+- Build something fun
+- See if AI can _actually_ help with a real creative project and lay the groundwork
 
 Spoiler: It did!
 
@@ -36,7 +36,7 @@ It’s not a serious game but a _fun_, slightly silly, and personal interactive 
 
 👉 **[Play here!](https://osks-office-adventure-game.lovable.app)**
 
-🖥️ Best experienced on desktop browsers
+Best experienced on desktop browsers
 
 <br>
 
@@ -44,11 +44,11 @@ It’s not a serious game but a _fun_, slightly silly, and personal interactive 
 
 This project was built with a mix of frontend web magic and pixel art charm:
 
-- ⚛️ **Framework:** [React](https://react.dev/) + TypeScript
-- 🎮 **Game Logic / Rendering:** [Phaser](https://phaser.io/)
-- 💅 **Styling:** [Tailwind CSS](https://tailwindcss.com/)
-- 🧑‍🎨 **Graphics:** Custom pixel art made with ❤️
-- 🤖 **AI Assistance:** [Lovable.dev](https://lovable.dev/)
+- **Framework:** [React](https://react.dev/) + TypeScript
+- **Game Logic / Rendering:** [Phaser](https://phaser.io/)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **Graphics:** Custom pixel art made with ❤️
+- **AI Assistance:** [Lovable.dev](https://lovable.dev/)
 
 <br>
 

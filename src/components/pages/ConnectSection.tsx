@@ -1,4 +1,4 @@
-import { FileDown, ExternalLink } from "lucide-react";
+import { ExternalLink } from "lucide-react";
 import { Button } from "../ui/button";
 import { LinkedinIcon } from "@/assets/icons/linkedinIcon";
 import { GithubIcon } from "@/assets/icons/githubIcon";
@@ -17,11 +17,6 @@ const ConnectSection = () => {
       url: information.osk.github,
       text: "View GitHub",
     },
-    {
-      icon: <FileDown />,
-      url: "/files/OskB_Frontend_CV.pdf",
-      text: "Open CV (PDF)",
-    },
   ];
 
   return (
@@ -37,7 +32,7 @@ const ConnectSection = () => {
             onClick={() => window.open(option.url, "_blank")}
             className="w-full"
           >
-            <span className="w-4 h-4 mr-2 fill-[#1a1a2e]/80 ">
+            <span className="w-4 h-4 mr-2 fill-[#1a1a2e]/80">
               {option.icon}
             </span>
             {option.text}

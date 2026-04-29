@@ -21,7 +21,7 @@ export const information: Information = {
         answer:
           "Because, as a gamer myself, I was really excited to see you looking for a developer with my skill set to build games. It looks like you're creating some seriously cool stuff, and I'd love to be part of that.",
         response:
-          "Excellent! Always good to have someone who gets what makes a player tick. Passion + skillset = a combo we can work with.",
+          "Excellent! Always good to have someone who gets what makes a player tick. Passion + skill set = a combo we can work with.",
       },
       {
         answer:
